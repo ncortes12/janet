@@ -18,6 +18,26 @@ h1{     font-family: 'Amatic SC', cursive;
         
         opacity:1;
         font-size:70px;}
+body {background-image: url("../images/symphony.png");
+    }
+.banner{width:100%;
+        height:300px;
+        position:relative;
+        z-index: -1;
+        border-radius:10%;
+      }
+.top {position:absolute;
+        left:35%;
+        top:35%;
+        z-index: 1;}
+
+h1{     font-family: 'Amatic SC', cursive;
+        text-shadow: 2px 2px;
+        font-weight: bold;
+        color:aliceblue;
+        
+        opacity:1;
+        font-size:70px;}
 .janet{
     border-radius: 50%;
     width:70%;
