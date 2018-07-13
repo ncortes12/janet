@@ -3,16 +3,20 @@ body {background-image: url("../images/symphony.png");
 .banner{width:100%;
         height:300px;
         position:relative;
-        opacity:0.5;
+        z-index: -1;
         border-radius:10%;
       }
 .top {position:absolute;
-        left:45%;
-        top:35%;}
+        left:35%;
+        top:35%;
+        z-index: 1;}
 
 h1{     font-family: 'Amatic SC', cursive;
         text-shadow: 2px 2px;
         font-weight: bold;
+        color:aliceblue;
+        
+        opacity:1;
         font-size:70px;}
 .janet{
     border-radius: 50%;
@@ -40,7 +44,8 @@ p {
 
 
 @media only screen and (max-width: 680px){
-    .top{left:35%;}
+    .top{left:20%;
+    font-size:48px;}
     .janet{margin-left:15%;}
     #hide{display:none;}
     p{margin-left:15%;
