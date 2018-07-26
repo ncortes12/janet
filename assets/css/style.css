@@ -1,6 +1,14 @@
 body {background-image: url("../images/symphony.png");
-    font-family: 'Merienda', cursive;
+    font-family: 'Nanum Brush Script', cursive;
     }
+
+#janet{
+    font-size:40px;
+}
+
+#pageOnelink {
+    font-size:20px;
+}
 .banner{width:100%;
         height:350px;
         position:relative;
@@ -19,8 +27,9 @@ h1{   color:aliceblue;
         font-size:50px;}
 
 p {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
     line-height: 1.5;
+    font-size:24px;
     color:rgb(104, 103, 103);
 }
 .contact{
@@ -35,14 +44,28 @@ p {
 .homeLink{
     position: absolute;
     z-index: 1;
-    top:70%;
+    top:60%;
     left: 28%;
     color: aliceblue;
-    font-size:24px;
+    font-size:36px;
+}
+#weirdsize{
+    height:280px;
+    width:70%
+}
+#weirdsize2{
+    height:250px;
 }
 
 #contactlink{
-    left:20%;
+    left:12%;
+}
+#whatlink{
+    font-size:32px;
+    left:12%;
+}
+#wholink{
+    left:22%
 }
 
 #aboutlink{
@@ -76,11 +99,11 @@ h3{
 }
 
 .cpic {
-    height:500px;
+    height:600px;
 
 }
 
-.navbar-brand{font-family: 'Merienda', cursive;
+.navbar-brand{font-family: 'Nanum Brush Script', cursive;
     font-size:24px;
 
 }
