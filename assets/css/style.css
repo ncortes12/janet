@@ -2,6 +2,9 @@ body {background-image: url("../images/symphony.png");
     font-family: 'Nanum Brush Script', cursive;
     }
 
+.mobile-display{display:none}
+
+
 #janet{
     font-size:40px;
 }
@@ -13,7 +16,7 @@ body {background-image: url("../images/symphony.png");
         height:350px;
         position:relative;
         z-index: -1;
-        border-radius:10%;
+        border-radius:5%;
         margin-bottom:20px;
       }
 .top {position:absolute;
@@ -44,32 +47,34 @@ p {
 .homeLink{
     position: absolute;
     z-index: 1;
-    top:60%;
-    left: 28%;
-    color: aliceblue;
+    top:90%;
+    left: 18%;
+    color: black;
     font-size:36px;
 }
-#weirdsize{
-    height:280px;
-    width:70%
-}
+
 #weirdsize2{
-    height:250px;
+    height:200px;
+    width: 50%
 }
 
 #contactlink{
-    left:12%;
+    left:8%;
 }
 #whatlink{
     font-size:32px;
-    left:12%;
+    left:5%;
 }
 #wholink{
-    left:22%
+    left:12%
 }
 
 #aboutlink{
     left:25%;
+}
+
+#hide{
+    margin-bottom:100px
 }
 .homepic{
     position:relative;
@@ -85,7 +90,8 @@ p {
 }
 
 .textbox{background:rgb(245, 242, 242);
-    padding:20px;}
+    padding:20px;
+    margin-bottom: 100px;}
 
 h3{
     text-align: center;
@@ -108,11 +114,13 @@ h3{
 
 }
 
-@media only screen and (max-width: 680px){
-    .top{left:10%;
-    font-size:32px;
-    top:5%;
+@media only screen and (max-width: 1024px){
+    .top{display:none;
     }
+    .banner{
+        border-radius: 0%;
+    }
+    .mobile-display{display:inline-block;}
     
     #hide{display:none;}
     .homepic{
